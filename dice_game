@@ -1,0 +1,10 @@
+#Roll a dice
+#import random
+class Dice:
+  def roll(self):
+    first_num = random.randint(1,6)
+    second_num = random.randint(1,6)
+    return first_num second_num  #Returns a tuple
+dice = Dice()
+dice.roll()
+print(dice.roll())
